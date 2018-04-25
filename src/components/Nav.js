@@ -12,7 +12,7 @@ import './nav.css';
 let NavBar = (props) => {
     return (
         <nav className="main-nav container mb-5 mt-5 pb-3">
-            <ul className="nav justify-content-between  flex-sm-column flex-md-row flex-lg-row text-center p-3 border-bottom align-items-center pb-5">
+            <ul className="nav justify-content-between  flex-column flex-sm-row text-center p-3 border-bottom align-items-center pb-5">
                 <li className="nav-item ">
                     <img src={props.Logo} width="100" height="70"  alt="" />
                 </li>

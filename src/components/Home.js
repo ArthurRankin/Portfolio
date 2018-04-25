@@ -7,7 +7,7 @@ import LGLogo from '../images/ARS-LOGO.svg';
 
 let HomePage = (props) => {
     return(
-        <div className="home-body container d-flex justify-content-center mt-5 align-items-center">
+        <div className="home-body container d-flex flex-column flex-sm-row justify-content-center mt-5 align-items-center">
             <div className="d-flex flex-column align-items-center">
                 <p className="greet-1 pr-3">Welcome</p>
                 <p className="greet-2 pr-5">to</p>
