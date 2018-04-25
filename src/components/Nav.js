@@ -12,12 +12,12 @@ import './nav.css';
 let NavBar = (props) => {
     return (
         <nav className="main-nav container mb-5 mt-5 pb-3">
-            <ul className="nav justify-content-between text-center p-3 border-bottom align-items-center pb-5">
+            <ul className="nav justify-content-between  flex-column flex-sm-row text-center p-3 border-bottom align-items-center pb-5">
                 <li className="nav-item ">
                     <img src={props.Logo} width="100" height="70"  alt="" />
                 </li>
                 <li className="nav-item">
-                    <NavLink className="nav-link " to="/">Home</NavLink>
+                    <NavLink className="nav-link" to="/Portfolio">Home</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink className="nav-link" to="/blog">Blogs</NavLink>
@@ -31,7 +31,7 @@ let NavBar = (props) => {
             </ul>
 
 
-            <Route exact path='/' component={Home} />
+            <Route exact path='/Portfolio' component={Home} />
             <Route path='/blog' component={Blog} />
             <Route path='/projects' component={Projects} />
             <Route path='/contact' component={Contact} />
