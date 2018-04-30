@@ -17,16 +17,16 @@ let NavBar = (props) => {
                     <img src={props.Logo} width="100" height="70"  alt="" />
                 </li>
                 <li className="nav-item">
-                    <NavLink className="nav-link" to="/Portfolio">Home</NavLink>
+                    <NavLink id="link" className="nav-link" to="/Portfolio" >Home</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink className="nav-link" to="/blog">Blogs</NavLink>
+                    <NavLink id="link" className="nav-link" to="/blog">Blogs</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink className="nav-link" to="/projects">Projects</NavLink>
+                    <NavLink id="link" className="nav-link" to="/projects">Projects</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink className="nav-link" to="/contact">Contact</NavLink>
+                    <NavLink id="link" className="nav-link" to="/contact">Contact</NavLink>
                 </li>
             </ul>
 
@@ -42,10 +42,16 @@ let NavBar = (props) => {
 
 
 class Nav extends Component {
+
+    
+    
+
+
     render() {
         return(
             <BrowserRouter>
-                    <NavBar Logo={Logo}/>
+                    <NavBar 
+                    Logo={Logo} />
             </BrowserRouter>
         )
     }
