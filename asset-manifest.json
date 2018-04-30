@@ -1,9 +1,13 @@
 {
-  "main.css": "static/css/main.2562f835.css",
-  "main.css.map": "static/css/main.2562f835.css.map",
-  "main.js": "static/js/main.cfc051bd.js",
-  "main.js.map": "static/js/main.cfc051bd.js.map",
+  "main.css": "static/css/main.a9ec0f67.css",
+  "main.css.map": "static/css/main.a9ec0f67.css.map",
+  "main.js": "static/js/main.b7ecbbfc.js",
+  "main.js.map": "static/js/main.b7ecbbfc.js.map",
   "static/media/ARS-LOGO.svg": "static/media/ARS-LOGO.8c955523.svg",
+  "static/media/PC-botSnap.png": "static/media/PC-botSnap.7c974200.png",
+  "static/media/PC-snapshot.png": "static/media/PC-snapshot.531adbb5.png",
   "static/media/persona.png": "static/media/persona.c984b123.png",
+  "static/media/wirefram2.JPG": "static/media/wirefram2.2c485e2a.JPG",
+  "static/media/wirefram3.JPG": "static/media/wirefram3.197d44d9.JPG",
   "static/media/wireframing.JPG": "static/media/wireframing.91c01457.JPG"
 }
