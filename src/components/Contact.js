@@ -7,8 +7,8 @@ import Logo from '../images/ARS-LOGO.svg';
 let ContactPage = (props) => {
     return(
         <div className="d-flex justify-content-center flex-column pt-5">
-            <div className="mb-5 mt-5">
-                <h3 className="mb-5 text-center"> Contact </h3>
+            <div className="mb-5">
+                <h3 className="mb-5 text-center display-3"> Contact </h3>
                 <p>Treehouse track-star gone professional UIX Front-End Developer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development. Currently seeking opportunities in related position.
 
                 </p>

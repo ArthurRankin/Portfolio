@@ -11,7 +11,7 @@ import personaPic from '../images/persona.png';
 let ProjectsPage = (props) => {
     return(
         <div className="d-flex flex-column mb-5 mt-5">
-            <h1 className="mb-5 text-center display-3">Projects</h1>
+            <h3 className="mb-5 text-center display-3">Projects</h3>
         
             <div className="card" style={{width: 35 + 'rem', hieght: 30 + 'rem'}}>
                 <img className="card-img-top" src={logo} alt="Card cap" />

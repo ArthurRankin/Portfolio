@@ -12,3 +12,8 @@
     animation-duration: 2s; 
     animation-fill-mode: forwards;
 }
+
+.active {
+    color:#19CA8E;
+    border-bottom:2px solid #ff5c5c;
+}
