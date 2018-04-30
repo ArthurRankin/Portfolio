@@ -5,6 +5,7 @@ import Home from './Home.js';
 import Blog from './Blogs.js';
 import Projects from './Projects.js';
 import Contact from './Contact.js';
+import ParentProj from './ParentingProj.js';
 import './nav.css';
 
 
@@ -35,6 +36,7 @@ let NavBar = (props) => {
             <Route path='/blog' component={Blog} />
             <Route path='/projects' component={Projects} />
             <Route path='/contact' component={Contact} />
+            <Route path='/ParentingConundrum' component={ParentProj} />
 
         </nav>
     )
