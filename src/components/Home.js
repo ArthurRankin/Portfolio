@@ -18,6 +18,7 @@ let HomePage = (props) => {
             <div className="d-flex flex-column justify-content-center align-items-center pl-2 ml-2 pl-sm-5 ml-sm-5 pt-4">
                 <img src={props.biglogo} className="img-fluid main-logo" width="225" height='225' alt="" />
                 <h1 className="main-logo display-2 text-center font-weight-light">Arthur Rankin</h1>
+                <p className="job-title">Front-End Engineer</p >
             </div>
         </div>
     )
