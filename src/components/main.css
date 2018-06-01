@@ -1,9 +1,9 @@
 body {
-    background-color:#232323;
+    background-color:#dad5d5;
 }
 
 .nav-link {
-    color: white;
+    color: black;
     transition: letter-spacing .3s;
     font-size: 1.2em;
 }
