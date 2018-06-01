@@ -9,13 +9,10 @@ import './parentingproj.css';
 
 
 
-let ParentingProj = () => {
+let Do = () => {
     return (
         <div className="mt-5">
-            <h3 className="mb-5 text-center display-3">Parenting Conundrum</h3>
-            <img src={PCtoppic} className="img-fluid" alt="Responsive" />
-            <img src={PCbotpic} className="img-fluid" alt="Responsive" />
-            <small className="text-light">(hompage image)</small>
+            <h3 className="mb-5 text-center display-3">do.</h3>
             <h2 className="text-light text-center mt-5">Wireframing</h2>
 
             <div className="d-flex flex-row flex-wrap justify-content-center mt-5">
@@ -34,4 +31,4 @@ let ParentingProj = () => {
     )
 }
 
-export default ParentingProj;
+export default Do;
