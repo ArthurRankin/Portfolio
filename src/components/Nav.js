@@ -13,19 +13,19 @@ import Do from './Do';
 
 let NavBar = (props) => {
     return (
-        <nav className="main-nav container mb-5 mt-5 pb-3">
-            <ul className="nav justify-content-between  flex-column flex-sm-row text-center p-3 border-bottom align-items-center pb-5">
-                <li className="nav-item ">
+        <nav className=" container mb-5 mt-5 pb-3">
+            <ul className="main-nav nav justify-content-between  flex-column flex-sm-row text-center p-3 align-items-center pb-5">
+                <li className="">
                     <img src={props.Logo} width="100" height="70"  alt="" />
                 </li>
                 <li className="nav-item">
-                    <NavLink id="link" className="nav-link" to="/Portfolio" >Home</NavLink>
+                    <NavLink id="link" className="nav-link" to="/Portfolio">Home</NavLink>
+                </li>
+                <li className="nav-item">
+                <NavLink id="link" className="nav-link" to="/projects">Projects</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink id="link" className="nav-link" to="/blog">Blogs</NavLink>
-                </li>
-                <li className="nav-item">
-                    <NavLink id="link" className="nav-link" to="/projects">Projects</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink id="link" className="nav-link" to="/contact">Contact</NavLink>

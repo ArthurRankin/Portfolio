@@ -8,6 +8,9 @@ import personaPic from '../images/pcPersona.png';
 import DBInteraction from '../images/DBInteractions.png';
 import MainPic from '../images/MainJS.png';
 import DomBuider from '../images/DOMBuilder.png';
+import WBData1 from '../images/WBDataStruc.JPG';
+import WBData2 from '../images/WBDataStruc2.JPG';
+import DataStruc from '../images/PaperDataStructure.JPG';
 import './parentingproj.css';
 
 
@@ -22,14 +25,14 @@ let ParentingProj = () => {
             <small className="text-dark">(hompage image)</small>
 
 
-            <h2 className="mt-5 pt-5 text-center">The Challenge</h2>
+            <h2 className="mt-5 pt-5 title ">The Challenge</h2>
             <p className="mb-5 pb-5">Parenting is one of the hardest paths one can take. How might I offer tools and a community that can equip parents with comfort, advice and knowledge that maximizes happiness for both parent and child.</p>
 
 
-            <h2 className="mt-5 pt-5 mb-4 text-center">Persona/User</h2>
+            <h2 className="mt-5 pt-5 mb-4  title">Persona/User</h2>
             <img src={personaPic} className="mb-3 pb-3" alt=""/>
 
-            <h2 className="mt-5 pt-5 mb-4 text-center">User Goals</h2>
+            <h2 className="mt-5 pt-5 mb-4 title ">User Goals</h2>
             <ul>
                 <li>To share an experience with other users</li>
                 <li>To find advice or information on their experience</li>
@@ -38,8 +41,8 @@ let ParentingProj = () => {
             
 
 
-            <h2 className="text-center mt-5 pt-5 text-dark">Wireframing</h2>
-            <div className="d-flex flex-row flex-wrap justify-content-center mt-5">
+            <h2 className=" mt-5 pt-5 title ">Wireframing</h2>
+            <div className="d-flex flex-row flex-wrap justify-content-center mt-5 mb-5 pb-5">
                 <div className="card m-2 border-0" style={{width: 20 + 'rem'}}>
                     <img className="card-img-top" src={ScreenSketch} alt="Card cap" />
                 </div>
@@ -49,8 +52,25 @@ let ParentingProj = () => {
                 <div className="card m-2 border-0" style={{width: 20 + 'rem'}}>
                     <img className="card-img-top" src={ScreenSketch3} alt="Card cap" />
                 </div>
-                <p className=" mt-3 text-dark">I believe that most great ideas still start on paper. I start my sketches there because paper wireframing gives you a clear goal that you can refere back to at anypoint, it is accessible, and it can catch errors in design fom the start.  </p>
+                <p className=" mt-3 text-dark">I believe that most great ideas still start on paper. I start my sketches there because paper wireframing gives you a clear goal that you can refere back to at anypoint, it is accessible, and it can catch errors in design fom the start.</p>
             </div>
+
+
+
+            <h2 className="d-flex flex-row flex-wrap title  mt-5">Firebase Data Structure</h2>
+            <div className="d-flex flex-row flex-wrap justify-content-center mt-5">
+                <div className="card m-2 border-0" style={{width: 20 + 'rem'}}>
+                    <img className="card-img-top" src={WBData1} alt="Card cap" />
+                </div>
+                <div className="card m-2 border-0" style={{width: 20 + 'rem'}}>
+                    <img className="card-img-top" src={WBData2} alt="Card cap" />
+                </div>
+                <div className="card m-2 border-0" style={{width: 20 + 'rem'}}>
+                    <img className="card-img-top" src={DataStruc} alt="Card cap" />
+                </div>
+            </div>          
+
+
         </div>
     )
 }
