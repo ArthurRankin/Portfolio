@@ -7,7 +7,7 @@ import Projects from './Projects.js';
 import Contact from './Contact.js';
 import ParentProj from './ParentingProj.js';
 import './nav.css';
-import Do from './do';
+import Do from './Do';
 
 
 
