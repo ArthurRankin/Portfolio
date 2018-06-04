@@ -5,6 +5,9 @@ import ScreenSketch from '../images/wireframing.JPG';
 import ScreenSketch2 from '../images/wirefram2.JPG';
 import ScreenSketch3 from '../images/wirefram3.JPG';
 import personaPic from '../images/pcPersona.png';
+import DBInteraction from '../images/DBInteractions.png';
+import MainPic from '../images/MainJS.png';
+import DomBuider from '../images/DOMBuilder.png';
 import './parentingproj.css';
 
 
@@ -24,7 +27,15 @@ let ParentingProj = () => {
 
 
             <h2 className="mt-5 pt-5 mb-4 text-center">Persona/User</h2>
-            <img src={personaPic} className="mb-5 pb-5" />
+            <img src={personaPic} className="mb-3 pb-3" alt=""/>
+
+            <h2 className="mt-5 pt-5 mb-4 text-center">User Goals</h2>
+            <ul>
+                <li>To share an experience with other users</li>
+                <li>To find advice or information on their experience</li>
+                <li>To find comfort and relate with other users</li>
+            </ul>
+            
 
 
             <h2 className="text-center mt-5 pt-5 text-dark">Wireframing</h2>
