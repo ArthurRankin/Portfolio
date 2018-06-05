@@ -8,12 +8,20 @@
 .nav-item{
     opacity: 0;
     animation-name: greeting;
-    animation-delay: 4s;
-    animation-duration: 2s; 
+    animation-delay: 2s;
+    animation-duration: 1.5s; 
     animation-fill-mode: forwards;
+}
+
+.nav-item:hover {
+    border-bottom:2px solid #ff5c5c;
 }
 
 .active {
     color:#19CA8E;
     border-bottom:2px solid #ff5c5c;
+}
+
+.main-nav {
+    border-bottom: 2px solid #ff5c5c; 
 }
