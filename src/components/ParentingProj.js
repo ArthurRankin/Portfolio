@@ -68,8 +68,22 @@ let ParentingProj = () => {
                 <div className="card m-2 border-0" style={{width: 20 + 'rem'}}>
                     <img className="card-img-top" src={DataStruc} alt="Card cap" />
                 </div>
-            </div>          
+            </div>   
+            
+            <h2 className="d-flex flex-row flex-wrap title  mt-5 pt-5">Reflection</h2>
+            <p>This project was an invaluable learning experience though I would do a number of things differently the next time around.</p>
+            <ol>
+                <li>Develope in a JS framework such as React.</li>
+                    <ul>
+                        <li>Easier for paths and DOM rendering vs reloading the entire page each time there is an update.</li>
+                    </ul>
+                <li>Create a different UI</li>
+                    <ul>
+                        <li>A number of my users were busy during the bulk of the testing process. Once I was able to get their input, the project deadline had passed. Once they tested the MVP version, I found that the UI was a failed attempt to make things simple for non tech-savvy users. Mostly because of the home page and usability issues of where to go next. In simple, the users had too many why’s and where’s.</li>
+                    </ul>
+            </ol>
 
+    
 
         </div>
     )

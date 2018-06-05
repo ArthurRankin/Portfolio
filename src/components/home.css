@@ -17,28 +17,28 @@ p {
 .greet-1 {
     opacity: 0;
     animation-name: greeting;
-    animation-duration: 3s; 
+    animation-duration: 1s; 
     animation-fill-mode: forwards;
 }
 
 .greet-2{
     opacity: 0;
     animation-name: greeting;
-    animation-duration: 6s; 
+    animation-duration: 2s; 
     animation-fill-mode: forwards;
 }
 
 .greet-3 {
     opacity: 0;
     animation-name: greeting;
-    animation-duration: 4s; 
+    animation-duration: 3s; 
     animation-fill-mode: forwards;
 }
 
 .greet-4 {
     opacity: 0;
     animation-name: greeting;
-    animation-duration: 2s; 
+    animation-duration: 4s; 
     animation-fill-mode: forwards;
 }
  .greet-5{
@@ -51,7 +51,7 @@ p {
  .main-logo, .job-title{
     opacity: 0;
     animation-name: greeting;
-    animation-delay: 2s;
-    animation-duration:5s; 
+    animation-delay: 1s;
+    animation-duration:4s; 
     animation-fill-mode: forwards;
  }

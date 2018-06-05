@@ -25,7 +25,7 @@ let Do = () => {
                 <div className="card m-2 border-0" style={{width: 20 + 'rem'}}>
                     <img className="card-img-top" src={ScreenSketch3} alt="Card cap" />
                 </div>
-                <p className="mt-3">I still believe that most great ideas start on paper. I start there because paper wireframing gives you a clear goal that you can refere back to at anypoint, it is accessible, and it can catch errors in design fom the start.  </p>
+                <p className="mt-3">I still believe that most great ideas start on paper. I start there because paper wireframing gives you a clear goal that you can refere back to at anypoint, it is accessible, and it can catch errors in design fom the start.</p>
             </div>
         </div>
     )
