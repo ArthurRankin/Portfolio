@@ -4,7 +4,6 @@ import { BrowserRouter, Route, NavLink } from 'react-router-dom';
 import Home from './Home.js';
 import Blog from './Blogs.js';
 import Projects from './Projects.js';
-import Contact from './Contact.js';
 import ParentProj from './ParentingProj.js';
 import './nav.css';
 import Do from './Do';
@@ -27,16 +26,12 @@ let NavBar = (props) => {
                 <li className="nav-item">
                     <NavLink id="link" className="nav-link" to="/blog">Blogs</NavLink>
                 </li>
-                <li className="nav-item">
-                    <NavLink id="link" className="nav-link" to="/contact">Contact</NavLink>
-                </li>
             </ul>
 
 
             <Route exact path='/Portfolio' component={Home} />
             <Route path='/blog' component={Blog} />
             <Route path='/projects' component={Projects} />
-            <Route path='/contact' component={Contact} />
             <Route path='/ParentingConundrum' component={ParentProj} />
             <Route path='/do' component={Do} />
 
