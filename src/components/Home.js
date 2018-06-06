@@ -7,18 +7,23 @@ import LGLogo from '../images/ARS-LOGO.svg';
 
 let HomePage = (props) => {
     return(
-        <div className="home-body container d-flex flex-column flex-sm-row justify-content-center mt-2 mt-sm-5 align-items-center">
-            <div className="d-flex flex-sm-column flex-row align-items-center">
-                <p className="greet-1 pr-2 pr-sm-3">Welcome</p>
-                <p className="greet-2 pr-2 pr-sm-5">to</p>
-                <p className="greet-3 pr-2 pr-sm-3">the</p>
-                <p className="greet-4 pr-2 pl-sm-5">Portfolio</p>
-                <p className="greet-5 pr-2 pl-sm-4">of</p>
+        <div>
+            <div className="home-body container d-flex flex-column flex-sm-row justify-content-center mt-2 mt-sm-5 align-items-center mb-5 pb-5">
+                <div className="d-flex flex-sm-column flex-row align-items-center">
+                    <p className="greet-1 pr-2 pr-sm-3">Welcome</p>
+                    <p className="greet-2 pr-2 pr-sm-5">to</p>
+                    <p className="greet-3 pr-2 pr-sm-3">the</p>
+                    <p className="greet-4 pr-2 pl-sm-5">Portfolio</p>
+                    <p className="greet-5 pr-2 pl-sm-4">of</p>
+                </div>
+                <div className="d-flex flex-column justify-content-center align-items-center pl-2 ml-2 pl-sm-5 ml-sm-5 pt-4">
+                    <img src={props.biglogo} className="img-fluid main-logo" width="225" height='225' alt="" />
+                    <h1 className="main-logo display-2 text-center ">Arthur Rankin</h1>
+                    <p className="job-title">Front-End Engineer</p>
+                </div>
             </div>
-            <div className="d-flex flex-column justify-content-center align-items-center pl-2 ml-2 pl-sm-5 ml-sm-5 pt-4">
-                <img src={props.biglogo} className="img-fluid main-logo" width="225" height='225' alt="" />
-                <h1 className="main-logo display-2 text-center ">Arthur Rankin</h1>
-                <p className="job-title">Front-End Engineer</p >
+            <div className="container mt-5 pt-5">
+                <p className=" main-logo">Treehouse track-star gone professional UI/UX Front-End Engineer built on the foundation of clean aesthetic design and human readable code. Believer in the user story and how to bring that to an interactive experience in my development. Currently seeking opportunities in related position.</p>
             </div>
         </div>
     )
