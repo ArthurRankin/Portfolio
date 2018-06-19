@@ -30,7 +30,7 @@ let NavBar = (props) => {
             </ul>
 
 
-            <Route exact path='/Portfolio/home' component={Home} />
+            <Route exact path='/Portfolio' component={Home} />
             <Route path='/Portfolio/blog' component={Blog} />
             <Route path='/Portfolio/projects' component={Projects} />
             <Route path='/Portfolio/ParentingConundrum' component={ParentProj} />
