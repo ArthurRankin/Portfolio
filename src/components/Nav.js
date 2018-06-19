@@ -19,7 +19,7 @@ let NavBar = (props) => {
                     <img src={props.Logo} width="100" height="70"  alt="" />
                 </li>
                 <li className="nav-item  mr-2-sm">
-                    <NavLink id="link" className="nav-link" to="/Portfolio/home">Home</NavLink>
+                    <NavLink id="link" className="nav-link" to="/Portfolio">Home</NavLink>
                 </li>
                 <li className="nav-item  mr-2">
                 <NavLink id="link" className="nav-link" to="/Portfolio/projects">Projects</NavLink>
