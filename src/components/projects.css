@@ -12,3 +12,12 @@
 a {
     text-decoration: none;
 }
+
+.card-title {
+    border: none;
+}
+
+.media {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #5e6ad5;
+}
